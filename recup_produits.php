@@ -9,6 +9,7 @@ include("connect_bdd.php");
                     <td><a href="suppression.php" style="text-decoration:none;padding:5px;border-radius:5px;background:#B52213;border:none;">Supprimer</a><a href="" style="text-decoration:none;padding:5px;border-radius:5px;background:#161161;border:none;">Consulter</a></td>
             </tr>
         <?php
+        
     }
 
 ?>
