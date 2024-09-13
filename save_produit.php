@@ -6,4 +6,5 @@ if(isset($_POST['designation']) AND isset($_POST['categorie'])){
     header("location:home.php");
 }
 
+
 ?>
