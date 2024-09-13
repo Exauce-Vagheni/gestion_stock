@@ -5,4 +5,5 @@ if(isset($_GET["id_categorie"])){
     $req->execute(array($_GET['id_categorie']));
     header("location:categories.php");
 }
+
 ?>
