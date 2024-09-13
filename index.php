@@ -55,7 +55,7 @@ form label{
         <form action="" method="post">
             <?php  
                 include("verification_connexion.php");
-            
+        
             ?>
         <label for="">Identifiant</label><br>
         <input type="text" name="identifiant"><br>
@@ -65,7 +65,6 @@ form label{
         <input class="btn-connect" type="submit" value="Se connecter" /><br>
         <input class="btn-inscrire" type="submit" value="Créer un compte"/>
         </div>
-        
     </form>
     </div>
     
