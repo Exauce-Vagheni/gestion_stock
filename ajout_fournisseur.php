@@ -95,30 +95,17 @@ form label{
        
     </header>
     <div class="formulaire">
-    <h2 style="color:black;">Ajouter un nouveau produit</h2>
+    <h2 style="color:black;">Ajouter un nouveau fournisseur</h2>
         <form action="" method="post">
-            <?php  
-                include("save_produit.php");
-                
-            ?>
-        <label for="">Designation</label><br>
-        <input type="text" name="designation"><br>
-        <label for="">Categorie</label><br>
-        <select name="categorie" id="">
-        <?php 
-include("connect_bdd.php");
-    $req=$con->query("SELECT * FROM categories");
-    while($rep=$req->fetch()){
-        ?>
-            <option value="<?php echo $rep['id']; ?>"><?php echo $rep['designation']; ?></option>
-        <?php
-    }
-
-?>
             
-        </select>
+        <label for="">nom</label><br>
+        <input type="text" name="nom"><br>
+        <label for="">adress</label><br>
+        <input type="text" name="adress"><br>
+        <label for="">num_tel</label><br>
+        <input type="text" name="num_tel"><br>
         <div align="center">
-        <input class="btn-connect" type="submit" value="Enregistrer"/><br>
+        <input class="btn-connect" type="submit" value="ajouter"/><br>
         </div>
         
     </form>

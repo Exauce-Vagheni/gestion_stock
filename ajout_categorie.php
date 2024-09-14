@@ -88,7 +88,7 @@ form label{
                 <li><a href="home.php">Produits</a></li>
                 <li><a href="categories.php">Categories</a></li>
                 <li><a href="fournisseurs.php">Fournisseurs</a></li>
-                <li><a href="clients.php">Clients</a></li>
+                <li><a href="clients.php">Clients </a></li>
             </ul>
         </nav> 
         </div>
@@ -100,7 +100,7 @@ form label{
             <?php  
                 include("save_categorie.php");
             ?>
-        <label for="">Designation</label><br>
+        <label for="">Désignation</label><br>
         <input type="text" name="designation"><br>
         <div align="center">
         <input class="btn-connect" type="submit" value="Enregistrer"/><br>

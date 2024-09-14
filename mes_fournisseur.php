@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GESTION_STOCK-Accueil</title>
+    <title>GESTION_STOCK-fournisseur</title>
 </head>
 <body style="margin-top:0px;">
     <style>
@@ -87,7 +87,7 @@
             <ul>
                 <li><a href="home.php">Produits</a></li>
                 <li><a href="categories.php">Categories</a></li>
-                <li><a href="mes_fournisseur.php">Fournisseurs</a></li>
+                <li><a href="mes_fournisseurs.php">Fournisseurs</a></li>
                 <li><a href="clients.php">Clients</a></li>
             </ul>
         </nav> 
@@ -96,18 +96,19 @@
     </header>
     <div>
         <section style="width:90%;margin:auto;">
-            <h1 style="color:#161161;text-align:center;">Mes produits</h1>
+            <h1 style="color:#161161;text-align:center;">Mes Fournisseurs</h1>
             <div align="right" style="margin-right:120px;">
-             <a href="ajout_produit.php" style="text-decoration:none;text-align:right;color:black;padding:8px;border-radius:5px;background:white;border:1px solid #161161;">Nouveau produit</a>
+             <a href="ajout_fournisseur.php" style="text-decoration:none;text-align:right;color:black;padding:8px;border-radius:5px;background:white;border:1px solid #161161;">Nouveau fournisseur</a>
             </div>
             <table class="tab">
                 <tr style="text-align:left;">
-                    <th>Désignation</th>
-                    <th>Categorie </th>
+                    <th>nom</th>
+                    <th>adress </th>
+                    <th>num_tel</th>
                     <th>Action</th>
                 </tr>
                 
-                <?php include("recup_produits.php"); ?>
+                <?php include("recup_fournisseur.php"); ?>
 
             </thead>
             <tbody>
