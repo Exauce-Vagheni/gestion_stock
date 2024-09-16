@@ -31,6 +31,7 @@
             color:white;
         }
         nav a:hover{
+            
             color:white;
             font-size: 19px;
             background:white;
